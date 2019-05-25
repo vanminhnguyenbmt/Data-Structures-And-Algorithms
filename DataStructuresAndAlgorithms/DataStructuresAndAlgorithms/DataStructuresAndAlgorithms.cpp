@@ -7,7 +7,10 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
+	int h;
+	cout << "h = ";
+	cin >> h;
+	cout << "h! = " << GiaiThua(h);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

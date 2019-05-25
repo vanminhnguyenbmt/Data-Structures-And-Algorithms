@@ -11,4 +11,6 @@
 
 // TODO: add headers that you want to pre-compile here
 
+long GiaiThua(int h);
+
 #endif //PCH_H
