@@ -2,15 +2,26 @@
 //
 
 #include "pch.h"
-#include <iostream>
-using namespace std;
 
 int main()
 {
-	int h;
+#pragma region "Đệ quy"
+	/*int h;
 	cout << "h = ";
 	cin >> h;
-	cout << "h! = " << GiaiThua(h);
+	cout << "h! = " << GiaiThua(h);*/
+#pragma endregion
+
+#pragma region "Tháp Hà Nội"
+	int soDia;
+	do
+	{
+		printf("HAY NHAP VAO SO DIA (n > 0): ");
+		scanf_s("%d", &soDia);
+	} while (soDia <= 0);
+	ThapHaNoi(soDia, 1, 2, 3);
+#pragma endregion
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

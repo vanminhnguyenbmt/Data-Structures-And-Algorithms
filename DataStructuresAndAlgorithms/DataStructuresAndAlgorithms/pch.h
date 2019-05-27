@@ -7,10 +7,13 @@
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
 
 #ifndef PCH_H
+#include <iostream>
+using namespace std;
 #define PCH_H
 
 // TODO: add headers that you want to pre-compile here
 
 long GiaiThua(int h);
 
+void ThapHaNoi(int n, int coc_1, int coc_2, int coc_3);
 #endif //PCH_H
