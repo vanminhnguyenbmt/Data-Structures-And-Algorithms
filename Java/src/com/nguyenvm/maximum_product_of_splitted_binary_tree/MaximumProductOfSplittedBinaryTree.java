@@ -104,7 +104,7 @@ public class MaximumProductOfSplittedBinaryTree {
     public static int maxProductOfSubtrees(TreeNode treeNode) {
         int mod = 1000000007;
         int total = sumTreeNode(treeNode);
-        double max = 0;
+        long max = 0l;
 
         List<TreeNode> treeNodeList = new LinkedList<>();
         treeNodeList.add(treeNode);
@@ -118,8 +118,8 @@ public class MaximumProductOfSplittedBinaryTree {
             if (pick.right != null) {
                 treeNodeList.add(pick.right);
             }
-            double totalPicked = sumTreeNode(pick);
-            max = Math.max((total - totalPicked) * totalPicked, max);
+            int totalPicked = sumTreeNode(pick);
+            max = Math.max((long) (total - totalPicked) * totalPicked, max);
             treeNodeList.remove(0);
         }
 
@@ -140,7 +140,7 @@ public class MaximumProductOfSplittedBinaryTree {
 
             int totalSub = maxProductOfSubtreesRecursive(treeNode.left) + maxProductOfSubtreesRecursive(treeNode.right) + treeNode.val;
 
-            max = Math.max((long)(total - totalSub) * totalSub, max);
+            max = Math.max((long) (total - totalSub) * totalSub, max);
 
             return totalSub;
         }
