@@ -2,62 +2,14 @@ package com.nguyenvm.binary_tree_inorder_traversal;
 
 //https://leetcode.com/problems/binary-tree-inorder-traversal/
 
-import java.util.*;
-import java.util.stream.Collectors;
+import com.nguyenvm.TreeNode.TreeNode;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Stack;
 
 public class binary_tree_inorder_traversal {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-
-        public TreeNode buildTreeNode(Integer[] data) {
-            TreeNode treeNode = new TreeNode(data[0]);
-
-            Queue<Integer> queue = new LinkedList<>();
-            int length = data.length;
-            for (int i = 1; i < length; i++) {
-                queue.offer(data[i]);
-            }
-
-            Queue<TreeNode> treeNodeList = new LinkedList<>();
-            treeNodeList.offer(treeNode);
-
-            while (!queue.isEmpty()) {
-                TreeNode current = treeNodeList.poll();
-                Integer left = queue.poll();
-                Integer right = queue.poll();
-
-                if (left != null) {
-                    TreeNode nLeft = new TreeNode(left);
-                    current.left = nLeft;
-                    treeNodeList.offer(nLeft);
-                }
-
-                if (right != null) {
-                    TreeNode nRight = new TreeNode(right);
-                    current.right = nRight;
-                    treeNodeList.offer(nRight);
-                }
-            }
-
-            return treeNode;
-        }
-    }
-
     public static List<Integer> inorderTraversal(TreeNode root) {
         if (root == null) return Collections.EMPTY_LIST;
 
