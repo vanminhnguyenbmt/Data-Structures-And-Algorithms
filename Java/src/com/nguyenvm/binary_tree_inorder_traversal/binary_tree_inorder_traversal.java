@@ -1,10 +1,11 @@
-package com.nguyenvm.binary_tree_postorder_traversal;
+package com.nguyenvm.binary_tree_inorder_traversal;
 
-//https://leetcode.com/problems/binary-tree-postorder-traversal/
+//https://leetcode.com/problems/binary-tree-inorder-traversal/
 
 import java.util.*;
+import java.util.stream.Collectors;
 
-public class BinaryTreePostorderTraversal {
+public class binary_tree_inorder_traversal {
     public static class TreeNode {
         int val;
         TreeNode left;
@@ -24,7 +25,7 @@ public class BinaryTreePostorderTraversal {
         }
 
         public TreeNode buildTreeNode(Integer[] data) {
-           TreeNode treeNode = new TreeNode(data[0]);
+            TreeNode treeNode = new TreeNode(data[0]);
 
             Queue<Integer> queue = new LinkedList<>();
             int length = data.length;
@@ -57,41 +58,41 @@ public class BinaryTreePostorderTraversal {
         }
     }
 
-    public static List<Integer> postorderTraversal(TreeNode root) {
+    public static List<Integer> inorderTraversal(TreeNode root) {
         if (root == null) return Collections.EMPTY_LIST;
 
         List<Integer> result = new ArrayList<>();
         Stack<TreeNode> treeNodeList = new Stack<>();
-        Stack<TreeNode> temp = new Stack<>();
         treeNodeList.add(root);
+
+        TreeNode current = root;
+        while (current != null) {
+            current = current.left;
+            if(current == null) break;
+            treeNodeList.add(current);
+        }
 
         while (!treeNodeList.isEmpty()) {
             TreeNode pick = treeNodeList.pop();
-            temp.push(pick);
+            result.add(pick.val);
 
-            if (pick.left != null) {
-                treeNodeList.add(pick.left);
+            TreeNode nRight = pick.right;
+
+            while (nRight != null) {
+                treeNodeList.add(nRight);
+                nRight = nRight.left;
             }
-
-            if (pick.right != null) {
-                treeNodeList.add(pick.right);
-            }
-        }
-
-        while (!temp.isEmpty()) {
-            result.add(temp.pop().val);
         }
 
         return result;
     }
 
     public static void main(String[] args) {
-        Integer[] data = new Integer[]{4, 2, null, 3, 1, null, null, 5};
+        Integer[] data = new Integer[]{1, null, 2, 3};
 
         TreeNode treeNode = new TreeNode();
         treeNode = treeNode.buildTreeNode(data);
 
-        List<Integer> result = new ArrayList<>();
-        result.addAll(postorderTraversal(treeNode));
+        inorderTraversal(treeNode);
     }
 }

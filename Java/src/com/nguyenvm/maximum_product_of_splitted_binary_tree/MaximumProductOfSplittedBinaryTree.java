@@ -2,9 +2,9 @@ package com.nguyenvm.maximum_product_of_splitted_binary_tree;
 
 //https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class MaximumProductOfSplittedBinaryTree {
     public static class TreeNode {
@@ -26,40 +26,33 @@ public class MaximumProductOfSplittedBinaryTree {
         }
     }
 
-    public static TreeNode buildTreeNode(int[] data) {
+    public static TreeNode buildTreeNode(Integer[] data) {
         TreeNode treeNode = new TreeNode(data[0]);
 
-        List<TreeNode> treeNodeList = new ArrayList<>();
-        treeNodeList.add(treeNode);
-
+        Queue<Integer> queue = new LinkedList<>();
         int length = data.length;
         for (int i = 1; i < length; i++) {
-            TreeNode temp = treeNodeList.get(0);
+            queue.offer(data[i]);
+        }
 
-            if (temp.left == null) {
-                if (data[i] == 0) {
-                    temp.left = new TreeNode(0);
-                    continue;
-                }
-                temp.left = new TreeNode(data[i]);
-                treeNodeList.add(temp.left);
-                continue;
+        Queue<TreeNode> treeNodeList = new LinkedList<>();
+        treeNodeList.offer(treeNode);
+
+        while (!queue.isEmpty()) {
+            TreeNode current = treeNodeList.poll();
+            Integer left = queue.poll();
+            Integer right = queue.poll();
+
+            if (left != null) {
+                TreeNode nLeft = new TreeNode(left);
+                current.left = nLeft;
+                treeNodeList.offer(nLeft);
             }
 
-            if (temp.right == null) {
-                if (temp.left.val == 0) {
-                    temp.left = null;
-                }
-
-                if (data[i] == 0) {
-                    treeNodeList.remove(0);
-                    continue;
-                }
-
-                temp.right = new TreeNode(data[i]);
-                treeNodeList.add(temp.right);
-                treeNodeList.remove(0);
-                continue;
+            if (right != null) {
+                TreeNode nRight = new TreeNode(right);
+                current.right = nRight;
+                treeNodeList.offer(nRight);
             }
         }
 
@@ -147,7 +140,7 @@ public class MaximumProductOfSplittedBinaryTree {
     }
 
     public static void main(String[] args) {
-        int[] data = new int[]{2, 3, 9, 10, 7, 8, 6, 5, 4, 11, 1};
+        Integer[] data = new Integer[]{2, 3, 9, 10, 7, 8, 6, 5, 4, 11, 1};
         int mod = 1000000007;
 
         TreeNode treeNode = buildTreeNode(data);
