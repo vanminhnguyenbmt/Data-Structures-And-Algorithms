@@ -71,6 +71,7 @@ public class binary_tree_inorder_traversal {
             if(current == null) break;
             treeNodeList.add(current);
         }
+        current = null;
 
         while (!treeNodeList.isEmpty()) {
             TreeNode pick = treeNodeList.pop();
