@@ -20,7 +20,7 @@ public class binary_tree_inorder_traversal {
         TreeNode current = root;
         while (current != null) {
             current = current.left;
-            if(current == null) break;
+            if (current == null) break;
             treeNodeList.add(current);
         }
         current = null;
@@ -41,7 +41,7 @@ public class binary_tree_inorder_traversal {
     }
 
     public static void main(String[] args) {
-        Integer[] data = new Integer[]{1, null, 2, 3};
+        Integer[] data = new Integer[]{5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1, 12, 13, 15, 16, 17, 18, 19, 20};
 
         TreeNode treeNode = new TreeNode();
         treeNode = treeNode.buildTreeNode(data);
