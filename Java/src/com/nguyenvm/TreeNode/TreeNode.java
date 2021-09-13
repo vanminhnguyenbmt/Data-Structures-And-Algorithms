@@ -35,7 +35,6 @@ public class TreeNode {
 
     public TreeNode buildTreeNode(Integer[] data) {
         TreeNode treeNode = new TreeNode(data[0]);
-
         Queue<Integer> queue = new LinkedList<>();
         int length = data.length;
         for (int i = 1; i < length; i++) {
