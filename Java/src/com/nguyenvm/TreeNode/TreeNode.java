@@ -1,8 +1,6 @@
 package com.nguyenvm.TreeNode;
 
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
+import java.util.*;
 
 public class TreeNode {
     public int val;
@@ -66,26 +64,22 @@ public class TreeNode {
         return treeNode;
     }
 
-    public static int height(TreeNode root, Map<TreeNode, Integer> cachingHeight) {
+    public static int height(TreeNode root) {
         if (root == null) return 0;
-        if (cachingHeight.containsKey(root)) return cachingHeight.get(root);
 
         int height = 0;
         Queue<TreeNode> treeNodes = new LinkedList<>();
         treeNodes.add(root);
         treeNodes.add(null);
 
-        TreeNode visited = null;
         while (!treeNodes.isEmpty()) {
             TreeNode tmp = treeNodes.poll();
 
             if (tmp == null) {
                 height++;
-                cachingHeight.put(visited, height);
             }
 
             if (tmp != null) {
-                visited = tmp;
                 if (tmp.left != null) treeNodes.offer(tmp.left);
                 if (tmp.right != null) treeNodes.offer(tmp.right);
                 continue;
@@ -97,5 +91,39 @@ public class TreeNode {
         }
 
         return height;
+    }
+
+    public static void cachingHeight(TreeNode root, Map<TreeNode, Integer> cachingHeight) {
+        if (root == null) return;
+        if (cachingHeight.containsKey(root)) return;
+
+        Stack<TreeNode> treeNodes = new Stack<>();
+
+        TreeNode current = root;
+        TreeNode lastVisited = null;
+        while (!treeNodes.isEmpty() || current != null) {
+            if (current != null) {
+                treeNodes.add(current);
+                current = current.left;
+                continue;
+            }
+
+            current = treeNodes.peek();
+            if (current.right == null || current.right == lastVisited) {
+                lastVisited = treeNodes.pop();
+
+                int hL = cachingHeight.getOrDefault(lastVisited.left, 0);
+                int hR = cachingHeight.getOrDefault(lastVisited.right, 0);
+
+                cachingHeight.put(lastVisited, Math.max(hL, hR) + 1);
+
+                current = null;
+                continue;
+            }
+
+            if (current.right != null) {
+                current = current.right;
+            }
+        }
     }
 }

@@ -107,36 +107,25 @@ public class BalancedBinarySearchTree {
 
                 // Left case
                 if (hL > hR && (hL - hR) > 1) {
-                    int tmpH = cachingHeight.get(lastVisited.left);
-
                     current = lastVisited.left;
                     // Left Right case, Left Rotate
                     if (cachingHeight.getOrDefault(current.left, 0) < cachingHeight.getOrDefault(current.right, 0)) {
-                        int checkH = cachingHeight.get(current);
-
-                        TreeNode tmpRoot = current.right;
-                        current.right = tmpRoot.left;
-                        tmpRoot.left = current;
-
-                        cachingHeight.put(tmpRoot, checkH);
-                        lastVisited.left = tmpRoot;
+                        lastVisited.left = leftRotate(current, cachingHeight);
                     }
 
                     // Left Left case, Right rotate
-                    TreeNode tmpRoot = lastVisited.left;
-                    lastVisited.left = tmpRoot.right;
-                    tmpRoot.right = lastVisited;
+                    lastVisited = rightRotate(lastVisited, cachingHeight);
 
-                    cachingHeight.put(tmpRoot, tmpH);
                     if (treeNodes.isEmpty()) {
-                        return tmpRoot;
+                        root = lastVisited;
+                        break;
                     }
                     current = treeNodes.peek();
-                    if (current.left == lastVisited) {
-                        current.left = tmpRoot;
+                    if (current.left == lastVisited.right) {
+                        current.left = lastVisited;
                     }
-                    if (current.right == lastVisited) {
-                        current.right = tmpRoot;
+                    if (current.right == lastVisited.right) {
+                        current.right = lastVisited;
                     }
 
                     current = null;
@@ -144,44 +133,32 @@ public class BalancedBinarySearchTree {
                 }
 
                 // Right case
-                if (hL < hR && (hR - hL) > 1) {
-                    int tmpH = cachingHeight.get(lastVisited.right);
-
+                if (hR > hL && (hR - hL) > 1) {
                     current = lastVisited.right;
-                    // Right Left case, Left Rotate
+                    // Right Left case, Right Rotate
                     if (cachingHeight.getOrDefault(current.left, 0) > cachingHeight.getOrDefault(current.right, 0)) {
-                        int checkH = cachingHeight.get(current);
-
-                        TreeNode tmpRoot = current.left;
-                        current.left = tmpRoot.right;
-                        tmpRoot.right = current;
-
-                        cachingHeight.put(tmpRoot, checkH);
-                        lastVisited.right = tmpRoot;
+                        lastVisited.right = rightRotate(current, cachingHeight);
                     }
 
                     // Right Right case, Left rotate
-                    TreeNode tmpRoot = lastVisited.right;
-                    lastVisited.right = tmpRoot.left;
-                    tmpRoot.left = lastVisited;
+                    lastVisited = leftRotate(lastVisited, cachingHeight);
 
-                    cachingHeight.put(tmpRoot, tmpH);
                     if (treeNodes.isEmpty()) {
-                        return tmpRoot;
+                        root = lastVisited;
+                        break;
                     }
                     current = treeNodes.peek();
-                    if (current.left == lastVisited) {
-                        current.left = tmpRoot;
+                    if (current.left == lastVisited.left) {
+                        current.left = lastVisited;
                     }
-                    if (current.right == lastVisited) {
-                        current.right = tmpRoot;
+                    if (current.right == lastVisited.left) {
+                        current.right = lastVisited;
                     }
                     current = null;
                     continue;
                 }
 
                 cachingHeight.put(lastVisited, Math.max(hL, hR) + 1);
-
                 current = null;
                 continue;
             }
@@ -194,14 +171,55 @@ public class BalancedBinarySearchTree {
         return root;
     }
 
+    public static boolean balanceFactor(TreeNode lastVisited, Map<TreeNode, Integer> cachingHeight) {
+        int hR = cachingHeight.getOrDefault(lastVisited.left, 0);
+        int hL = cachingHeight.getOrDefault(lastVisited.right, 0);
+
+        if ((hL > hR && (hL - hR) > 1) || (hR > hL && (hR - hL) > 1)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    public static TreeNode leftRotate(TreeNode current, Map<TreeNode, Integer> cachingHeight) {
+        cachingHeight.remove(current);
+
+        TreeNode tmpRoot = current.right;
+        current.right = tmpRoot.left;
+        tmpRoot.left = current;
+
+        cachingHeight.remove(tmpRoot);
+        TreeNode.cachingHeight(current, cachingHeight);
+        TreeNode.cachingHeight(tmpRoot, cachingHeight);
+
+        return tmpRoot;
+    }
+
+    public static TreeNode rightRotate(TreeNode current, Map<TreeNode, Integer> cachingHeight) {
+        cachingHeight.remove(current);
+
+        TreeNode tmpRoot = current.left;
+        current.left = tmpRoot.right;
+        tmpRoot.right = current;
+
+        cachingHeight.remove(tmpRoot);
+        TreeNode.cachingHeight(current, cachingHeight);
+        TreeNode.cachingHeight(tmpRoot, cachingHeight);
+
+        return tmpRoot;
+    }
+
     public static void main(String[] args) {
         // left left {10, 8, 11, 6, 9, null, 12, 4, 7, null, null, null, null, 3}
         // left right {10, 6, 11, 5, 8, null, null, null, null, 7, 9, null, null, null}
         // right right {10, 6, 12, null, null, 11, 14, null, null, 13, 15}
+        // right left {10, 6, 14, null, null, 12, 15, 11, 13, null}
+//        {1,null,15,14,17,7,null,null,null,2,12,null,3,9,null,null,null,null,11}
         Integer[] data = new Integer[]{1, null, 15, 14, 17, 7, null, null, null, 2, 12, null, 3, 9, null, null, null, null, 11};
         TreeNode treeNode = new TreeNode();
         treeNode = treeNode.buildTreeNode(data);
 
-        balanceBST(treeNode);
+        balanceInsertionBST(treeNode);
     }
 }
