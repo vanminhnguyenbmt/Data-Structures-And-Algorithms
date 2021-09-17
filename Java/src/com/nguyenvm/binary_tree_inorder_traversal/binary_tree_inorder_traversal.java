@@ -13,31 +13,34 @@ public class binary_tree_inorder_traversal {
     public static List<Integer> inorderTraversal(TreeNode root) {
         if (root == null) return Collections.EMPTY_LIST;
 
-        List<Integer> result = new ArrayList<>();
-        Stack<TreeNode> treeNodeList = new Stack<>();
-        treeNodeList.add(root);
+        List<Integer> items = new ArrayList<>();
 
+        Stack<TreeNode> treeNodes = new Stack<>();
         TreeNode current = root;
-        while (current != null) {
-            current = current.left;
-            if (current == null) break;
-            treeNodeList.add(current);
-        }
-        current = null;
 
-        while (!treeNodeList.isEmpty()) {
-            TreeNode pick = treeNodeList.pop();
-            result.add(pick.val);
+        // Inorder (Left, Root, Right)
+        while (!treeNodes.isEmpty() || current != null) {
+            if (current != null) {
+                treeNodes.add(current);
+                current = current.left;
 
-            TreeNode nRight = pick.right;
+                continue;
+            }
 
-            while (nRight != null) {
-                treeNodeList.add(nRight);
-                nRight = nRight.left;
+            current = treeNodes.pop();
+            items.add(current.val);
+
+            if (current.right == null) {
+                current = null;
+                continue;
+            }
+
+            if (current.right != null) {
+                current = current.right;
             }
         }
 
-        return result;
+        return items;
     }
 
     public static void main(String[] args) {

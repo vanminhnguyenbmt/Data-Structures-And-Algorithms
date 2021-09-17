@@ -18,6 +18,7 @@ public class BinaryTreePostorderTraversal {
         Stack<TreeNode> temp = new Stack<>();
         treeNodeList.add(root);
 
+        // Postorder (Left, Right, Root)
         while (!treeNodeList.isEmpty()) {
             TreeNode pick = treeNodeList.pop();
             temp.push(pick);
@@ -39,7 +40,7 @@ public class BinaryTreePostorderTraversal {
     }
 
     public static void main(String[] args) {
-        Integer[] data = new Integer[]{4, 2, null, 3, 1, null, null, 5};
+        Integer[] data = new Integer[]{5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1, 12, 13, 15, 16, 17, 18, 19, 20};
 
         TreeNode treeNode = new TreeNode();
         treeNode = treeNode.buildTreeNode(data);

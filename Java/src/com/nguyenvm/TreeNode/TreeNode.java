@@ -1,6 +1,7 @@
 package com.nguyenvm.TreeNode;
 
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.Queue;
 
 public class TreeNode {
@@ -63,5 +64,38 @@ public class TreeNode {
         }
 
         return treeNode;
+    }
+
+    public static int height(TreeNode root, Map<TreeNode, Integer> cachingHeight) {
+        if (root == null) return 0;
+        if (cachingHeight.containsKey(root)) return cachingHeight.get(root);
+
+        int height = 0;
+        Queue<TreeNode> treeNodes = new LinkedList<>();
+        treeNodes.add(root);
+        treeNodes.add(null);
+
+        TreeNode visited = null;
+        while (!treeNodes.isEmpty()) {
+            TreeNode tmp = treeNodes.poll();
+
+            if (tmp == null) {
+                height++;
+                cachingHeight.put(visited, height);
+            }
+
+            if (tmp != null) {
+                visited = tmp;
+                if (tmp.left != null) treeNodes.offer(tmp.left);
+                if (tmp.right != null) treeNodes.offer(tmp.right);
+                continue;
+            }
+
+            if (!treeNodes.isEmpty()) {
+                treeNodes.add(null);
+            }
+        }
+
+        return height;
     }
 }
