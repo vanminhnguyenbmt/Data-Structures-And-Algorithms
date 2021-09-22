@@ -32,3 +32,6 @@ https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/J
 
 946. Validate Stack Sequences - https://leetcode.com/problems/validate-stack-sequences/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/validate_stack_sequences
+
+50. Pow(x, n) - https://leetcode.com/problems/powx-n/
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/Pow
