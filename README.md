@@ -35,3 +35,6 @@ https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/J
 
 50. Pow(x, n) - https://leetcode.com/problems/powx-n/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/Pow
+
+69. Sqrt(x) - https://leetcode.com/problems/sqrtx/submissions/
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/Sqrt
