@@ -38,3 +38,6 @@ https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/J
 
 69. Sqrt(x) - https://leetcode.com/problems/sqrtx/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/Sqrt
+
+28. Implement strStr() - https://leetcode.com/problems/implement-strstr/
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/str_Str
