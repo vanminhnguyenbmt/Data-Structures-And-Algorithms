@@ -30,14 +30,7 @@ public class binary_tree_inorder_traversal {
             current = treeNodes.pop();
             items.add(current.val);
 
-            if (current.right == null) {
-                current = null;
-                continue;
-            }
-
-            if (current.right != null) {
-                current = current.right;
-            }
+            current = current.right;
         }
 
         return items;
