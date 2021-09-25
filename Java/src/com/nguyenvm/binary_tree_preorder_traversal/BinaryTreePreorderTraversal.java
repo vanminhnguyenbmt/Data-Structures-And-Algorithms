@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Stack;
 
 public class BinaryTreePreorderTraversal {
+    // Preorder (Root, Left, Right)
     public static List<Integer> preorderTraversal(TreeNode root) {
         if (root == null) return Collections.EMPTY_LIST;
         List<Integer> results = new ArrayList<>();

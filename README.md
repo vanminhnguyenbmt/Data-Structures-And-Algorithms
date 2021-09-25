@@ -21,6 +21,9 @@ https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/J
 1339. Maximum Product of Splitted Binary Tree - https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/maximum_product_of_splitted_binary_tree
 
+226. Invert Binary Tree - https://leetcode.com/problems/invert-binary-tree/
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/invert_binary_tree
+
 113. Path Sum II - https://leetcode.com/problems/path-sum-ii/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/path_sum_ii
 
