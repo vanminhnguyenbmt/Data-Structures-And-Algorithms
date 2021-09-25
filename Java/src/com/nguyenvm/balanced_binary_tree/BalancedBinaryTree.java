@@ -1,8 +1,10 @@
-package com.nguyenvm.BalancedBinaryTree;
+package com.nguyenvm.balanced_binary_tree;
 
-import com.nguyenvm.TreeNode.TreeNode;
+import com.nguyenvm.tree_node.TreeNode;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
 
 //https://leetcode.com/problems/balanced-binary-tree/
 

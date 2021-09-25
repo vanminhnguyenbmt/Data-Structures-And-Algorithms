@@ -4,16 +4,19 @@
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Javascript/Hamming%20Distance/461.%20Hamming%20Distance
 
 110. Balanced Binary Tree - https://leetcode.com/problems/balanced-binary-tree/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/BalancedBinaryTree
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/balanced_binary_tree
 
 1382. Balance a Binary Search Tree - https://leetcode.com/problems/balance-a-binary-search-tree/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/BalancedBinarySearchTree
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/balanced_binary_search_tree
 
 94. Binary Tree Inorder Traversal - https://leetcode.com/problems/binary-tree-inorder-traversal/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree_inorder_traversal
 
 145. Binary Tree Postorder Traversal - https://leetcode.com/problems/binary-tree-postorder-traversal/
 https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree_postorder_traversal
+
+144. Binary Tree Preorder Traversal - https://leetcode.com/problems/binary-tree-preorder-traversal/
+https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree_preorder_traversal
 
 1339. Maximum Product of Splitted Binary Tree - https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/maximum_product_of_splitted_binary_tree
@@ -34,10 +37,10 @@ https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/J
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/validate_stack_sequences
 
 50. Pow(x, n) - https://leetcode.com/problems/powx-n/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/Pow
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/pow
 
 69. Sqrt(x) - https://leetcode.com/problems/sqrtx/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/Sqrt
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/sqrt
 
 28. Implement strStr() - https://leetcode.com/problems/implement-strstr/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/str_Str

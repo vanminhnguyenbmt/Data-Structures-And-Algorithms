@@ -1,4 +1,4 @@
-package com.nguyenvm.Sqrt;
+package com.nguyenvm.sqrt;
 
 //https://leetcode.com/problems/sqrtx/
 

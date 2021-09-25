@@ -1,4 +1,4 @@
-package com.nguyenvm.TreeNode;
+package com.nguyenvm.tree_node;
 
 import java.util.*;
 

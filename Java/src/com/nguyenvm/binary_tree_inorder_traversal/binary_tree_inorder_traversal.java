@@ -2,7 +2,7 @@ package com.nguyenvm.binary_tree_inorder_traversal;
 
 //https://leetcode.com/problems/binary-tree-inorder-traversal/
 
-import com.nguyenvm.TreeNode.TreeNode;
+import com.nguyenvm.tree_node.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Collections;

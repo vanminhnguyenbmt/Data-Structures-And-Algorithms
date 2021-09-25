@@ -1,4 +1,4 @@
-package com.nguyenvm.Pow;
+package com.nguyenvm.pow;
 
 //https://leetcode.com/problems/powx-n/
 
