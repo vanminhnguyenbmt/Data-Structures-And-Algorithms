@@ -53,3 +53,9 @@ https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/J
 
 202. Happy Number - https://leetcode.com/problems/happy-number/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/happy_number
+
+13. Roman to Integer - https://leetcode.com/problems/roman-to-integer/
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/roman_to_integer
+
+997. Find the Town Judge - https://leetcode.com/problems/find-the-town-judge/
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/find_the_town_judge
