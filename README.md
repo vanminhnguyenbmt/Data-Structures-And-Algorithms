@@ -59,3 +59,6 @@ https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/J
 
 997. Find the Town Judge - https://leetcode.com/problems/find-the-town-judge/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/find_the_town_judge
+
+1971. Find if Path Exists in Graph - https://leetcode.com/problems/find-if-path-exists-in-graph/
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/find_if_path_exists_in_graph

@@ -2,9 +2,6 @@ package com.nguyenvm.find_the_town_judge;
 
 //https://leetcode.com/problems/find-the-town-judge/
 
-import java.util.HashMap;
-import java.util.HashSet;
-
 public class FindTheTownJudge {
     public static int findJudge(int n, int[][] trust) {
         if (trust.length == 0) return n == 1 ? 1 : -1;
