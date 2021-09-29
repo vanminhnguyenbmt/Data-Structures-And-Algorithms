@@ -33,6 +33,9 @@ https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/J
 1971. Find if Path Exists in Graph - https://leetcode.com/problems/find-if-path-exists-in-graph/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/find_if_path_exists_in_graph
 
+1791. Find Center of Star Graph - https://leetcode.com/problems/find-center-of-star-graph/
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/find_center_of_star_graph
+
 ## Others
 289. Game of Life - https://leetcode.com/problems/game-of-life/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/game_of_life
