@@ -42,9 +42,8 @@ public class FindIfPathExistsInGraph {
     }
 
     public static void main(String[] args) {
-        int n = 6, start = 0, end = 5;
-//        {{0, 1}, {0, 2}, {3, 5}, {5, 4}, {4, 3}}
-        int[][] edges = new int[][]{{1,3},{0,2},{3,5},{5,4},{4,2}};
+        int n = 10, start = 7, end = 5;
+        int[][] edges = new int[][]{{0, 7}, {0, 8}, {6, 1}, {2, 0}, {0, 4}, {5, 8}, {4, 7}, {1, 3}, {3, 5}, {6, 5}};
         validPath(n, edges, start, end);
     }
 }
