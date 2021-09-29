@@ -41,9 +41,32 @@ public class FindIfPathExistsInGraph {
         return false;
     }
 
+    public static int findPath(int[] parent, int x) {
+        return parent[x] == -1 ? x : findPath(parent, parent[x]);
+    }
+
+    public static boolean isValidPath(int n, int[][] edges, int u, int v) {
+//        union find
+        int[] parent = new int[n];
+        for (int i = 0; i < n; i++) {
+            parent[i] = -1;
+        }
+
+        for (int[] edge : edges) {
+            int p1 = findPath(parent, edge[0]);
+            int p2 = findPath(parent, edge[1]);
+
+            if (p1 != p2) parent[p1] = p2;
+        }
+
+        return findPath(parent, u) == findPath(parent, v);
+    }
+
     public static void main(String[] args) {
         int n = 10, start = 7, end = 5;
         int[][] edges = new int[][]{{0, 7}, {0, 8}, {6, 1}, {2, 0}, {0, 4}, {5, 8}, {4, 7}, {1, 3}, {3, 5}, {6, 5}};
-        validPath(n, edges, start, end);
+//        validPath(n, edges, start, end);
+
+        isValidPath(n, edges, start, end);
     }
 }
