@@ -2,6 +2,8 @@ package com.nguyenvm.course_schedule;
 
 import java.util.*;
 
+//https://leetcode.com/problems/course-schedule/
+
 public class CourseSchedule {
     public static boolean canFinish(int numCourses, int[][] prerequisites) {
         HashMap<Integer, Set<Integer>> adj = new HashMap<>(numCourses);
