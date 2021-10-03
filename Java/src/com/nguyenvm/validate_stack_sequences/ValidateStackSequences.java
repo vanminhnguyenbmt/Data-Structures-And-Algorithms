@@ -1,25 +1,25 @@
 package com.nguyenvm.validate_stack_sequences;
 
-import java.util.Arrays;
+import java.util.ArrayDeque;
 
 //https://leetcode.com/problems/validate-stack-sequences/
 
 public class ValidateStackSequences {
     public static void main(String[] args) {
         int[] pushed = new int[]{2, 1, 0}, popped = new int[]{0, 1, 2};
-        int i = 0, j = 0, N = pushed.length;
-        int[] tmp = new int[0];
+        int j = 0, N = pushed.length;
+        ArrayDeque<Integer> deque = new ArrayDeque<>();
 
-        while(i < N) {
-            tmp = Arrays.copyOf(tmp, tmp.length + 1);
-            System.arraycopy(pushed, i, tmp, tmp.length - 1, 1);
+        for (int i = 0; i < N; i++) {
+            deque.add(pushed[i]);
 
-            while (tmp.length != 0 && tmp.length - 1 >= 0 && tmp[tmp.length - 1] == popped[j] && j < N) {
-                tmp = Arrays.copyOf(tmp, tmp.length - 1);
-                j++;
+            while (!deque.isEmpty()) {
+                int push = deque.getLast();
+                if (push == popped[j]) {
+                    deque.removeLast();
+                    j++;
+                } else break;
             }
-
-            i++;
         }
 
         System.out.println(j == N);
