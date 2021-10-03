@@ -71,3 +71,6 @@ https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/J
 
 13. Roman to Integer - https://leetcode.com/problems/roman-to-integer/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/roman_to_integer
+
+20. Valid Parentheses - https://leetcode.com/problems/valid-parentheses
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/valid_parentheses
