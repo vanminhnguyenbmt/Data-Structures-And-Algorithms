@@ -8,13 +8,13 @@ import java.util.Map;
 
 public class ValidParentheses {
     public static boolean isValid(String s) {
+        int length = s.length();
+        if (length % 2 != 0) return false;
+
         Map<String, String> valid = new HashMap<>();
         valid.put("(", ")");
         valid.put("{", "}");
         valid.put("[", "]");
-
-        int length = s.length();
-        if (length % 2 != 0) return false;
 
         ArrayDeque<String> deque = new ArrayDeque<>();
         for (int i = 0; i < length; i++) {
