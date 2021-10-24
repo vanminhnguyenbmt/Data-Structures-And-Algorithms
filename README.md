@@ -46,7 +46,7 @@ https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/J
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/course_schedule_iii
 
 ## Sort
-Quick Sort
+912. Sort an Array - https://leetcode.com/problems/sort-an-array/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/sort/quick_sort
 ## Others
 289. Game of Life - https://leetcode.com/problems/game-of-life/
