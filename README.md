@@ -1,50 +1,53 @@
 ## Binary Tree
 110. Balanced Binary Tree - https://leetcode.com/problems/balanced-binary-tree/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/balanced_binary_tree
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/balanced_binary_tree
 
 1382. Balance a Binary Search Tree - https://leetcode.com/problems/balance-a-binary-search-tree/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/balanced_binary_search_tree
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/balanced_binary_search_tree
 
 94. Binary Tree Inorder Traversal - https://leetcode.com/problems/binary-tree-inorder-traversal/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree_inorder_traversal
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/binary_tree_inorder_traversal
 
 145. Binary Tree Postorder Traversal - https://leetcode.com/problems/binary-tree-postorder-traversal/
-https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree_postorder_traversal
+https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/binary_tree_postorder_traversal
 
 144. Binary Tree Preorder Traversal - https://leetcode.com/problems/binary-tree-preorder-traversal/
-https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree_preorder_traversal
+https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/binary_tree_preorder_traversal
 
 1339. Maximum Product of Splitted Binary Tree - https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/maximum_product_of_splitted_binary_tree
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/maximum_product_of_splitted_binary_tree
 
 226. Invert Binary Tree - https://leetcode.com/problems/invert-binary-tree/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/invert_binary_tree
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/invert_binary_tree
 
 107. Binary Tree Level Order Traversal II - https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree_level_order_traversal_ii
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/binary_tree_level_order_traversal_ii
 
 113. Path Sum II - https://leetcode.com/problems/path-sum-ii/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/path_sum_ii
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/path_sum_ii
 
 ## Graph
 997. Find the Town Judge - https://leetcode.com/problems/find-the-town-judge/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/find_the_town_judge
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/find_the_town_judge
 
 1971. Find if Path Exists in Graph - https://leetcode.com/problems/find-if-path-exists-in-graph/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/find_if_path_exists_in_graph
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/find_if_path_exists_in_graph
 
 1791. Find Center of Star Graph - https://leetcode.com/problems/find-center-of-star-graph/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/find_center_of_star_graph
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/find_center_of_star_graph
 
 207. Course Schedule - https://leetcode.com/problems/course-schedule/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/course_schedule
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/course_schedule
 
 210. Course Schedule II - https://leetcode.com/problems/course-schedule-ii/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/course_schedule_ii
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/course_schedule_ii
 
 630. Course Schedule III - https://leetcode.com/problems/course-schedule-iii/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/course_schedule_iii
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/course_schedule_iii
 
+## Sort
+Quick Sort
+- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/sort/quick_sort
 ## Others
 289. Game of Life - https://leetcode.com/problems/game-of-life/
 - https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/game_of_life
