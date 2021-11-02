@@ -1,86 +1,59 @@
 ## Binary Tree
-110. Balanced Binary Tree - https://leetcode.com/problems/balanced-binary-tree/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/balanced_binary_tree
+110. [Balanced Binary Tree](Java/src/com/nguyenvm/binary_tree/balanced_binary_tree) - https://leetcode.com/problems/balanced-binary-tree/
 
-1382. Balance a Binary Search Tree - https://leetcode.com/problems/balance-a-binary-search-tree/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/balanced_binary_search_tree
+1382. [Balance a Binary Search Tree](Java/src/com/nguyenvm/binary_tree/balanced_binary_search_tree) - https://leetcode.com/problems/balance-a-binary-search-tree/
 
-94. Binary Tree Inorder Traversal - https://leetcode.com/problems/binary-tree-inorder-traversal/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/binary_tree_inorder_traversal
+94. [Binary Tree Inorder Traversal](Java/src/com/nguyenvm/binary_tree/binary_tree_inorder_traversal) - https://leetcode.com/problems/binary-tree-inorder-traversal/
 
-145. Binary Tree Postorder Traversal - https://leetcode.com/problems/binary-tree-postorder-traversal/
-https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/binary_tree_postorder_traversal
+145. [Binary Tree Postorder Traversal](Java/src/com/nguyenvm/binary_tree/binary_tree_postorder_traversal
+) - https://leetcode.com/problems/binary-tree-postorder-traversal/
 
-144. Binary Tree Preorder Traversal - https://leetcode.com/problems/binary-tree-preorder-traversal/
-https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/binary_tree_preorder_traversal
+144. [Binary Tree Preorder Traversal](Java/src/com/nguyenvm/binary_tree/binary_tree_preorder_traversal) - https://leetcode.com/problems/binary-tree-preorder-traversal/
 
-1339. Maximum Product of Splitted Binary Tree - https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/maximum_product_of_splitted_binary_tree
+1339. [Maximum Product of Splitted Binary Tree](Java/src/com/nguyenvm/binary_tree/maximum_product_of_splitted_binary_tree) - https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 
-226. Invert Binary Tree - https://leetcode.com/problems/invert-binary-tree/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/invert_binary_tree
+226. [Invert Binary Tree](Java/src/com/nguyenvm/binary_tree/invert_binary_tree) - https://leetcode.com/problems/invert-binary-tree/
 
-107. Binary Tree Level Order Traversal II - https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/binary_tree_level_order_traversal_ii
+107. [Binary Tree Level Order Traversal II](Java/src/com/nguyenvm/binary_tree/binary_tree_level_order_traversal_ii) - https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
 
-113. Path Sum II - https://leetcode.com/problems/path-sum-ii/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/binary_tree/path_sum_ii
+113. [Path Sum II](Java/src/com/nguyenvm/binary_tree/path_sum_ii) - https://leetcode.com/problems/path-sum-ii/
 
 ## Graph
-997. Find the Town Judge - https://leetcode.com/problems/find-the-town-judge/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/find_the_town_judge
+997. [Find the Town Judge](Java/src/com/nguyenvm/graph/find_the_town_judge) - https://leetcode.com/problems/find-the-town-judge/
 
-1971. Find if Path Exists in Graph - https://leetcode.com/problems/find-if-path-exists-in-graph/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/find_if_path_exists_in_graph
+1971. [Find if Path Exists in Graph](Java/src/com/nguyenvm/graph/find_if_path_exists_in_graph) - https://leetcode.com/problems/find-if-path-exists-in-graph/
 
-1791. Find Center of Star Graph - https://leetcode.com/problems/find-center-of-star-graph/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/find_center_of_star_graph
+1791. [Find Center of Star Graph](Java/src/com/nguyenvm/graph/find_center_of_star_graph) - https://leetcode.com/problems/find-center-of-star-graph/
 
-207. Course Schedule - https://leetcode.com/problems/course-schedule/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/course_schedule
+207. [Course Schedule](Java/src/com/nguyenvm/graph/course_schedule) - https://leetcode.com/problems/course-schedule/
 
-210. Course Schedule II - https://leetcode.com/problems/course-schedule-ii/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/course_schedule_ii
+210. [Course Schedule II](Java/src/com/nguyenvm/graph/course_schedule_ii) - https://leetcode.com/problems/course-schedule-ii/
 
-630. Course Schedule III - https://leetcode.com/problems/course-schedule-iii/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/graph/course_schedule_iii
+630. [Course Schedule III](Java/src/com/nguyenvm/graph/course_schedule_iii) - https://leetcode.com/problems/course-schedule-iii/
 
 ## Sort
-912. Sort an Array - https://leetcode.com/problems/sort-an-array/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/sort/quick_sort
+912. [Sort an Array](Java/src/com/nguyenvm/sort/quick_sort) - https://leetcode.com/problems/sort-an-array/
 ## Others
-289. Game of Life - https://leetcode.com/problems/game-of-life/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/game_of_life
+289. [Game of Life](Java/src/com/nguyenvm/game_of_life) - https://leetcode.com/problems/game-of-life/
 
-78. Subsets - https://leetcode.com/problems/subsets/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/subsests
+78. [Subsets](Java/src/com/nguyenvm/subsests) - https://leetcode.com/problems/subsets/
 
-42. Trapping Rain Water - https://leetcode.com/problems/trapping-rain-water/ 
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/trapping_rain_water
+42. [Trapping Rain Water]() - https://leetcode.com/problems/trapping-rain-water/
 
-946. Validate Stack Sequences - https://leetcode.com/problems/validate-stack-sequences/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/validate_stack_sequences
+946. [Validate Stack Sequences](Java/src/com/nguyenvm/validate_stack_sequences) - https://leetcode.com/problems/validate-stack-sequences/
 
-50. Pow(x, n) - https://leetcode.com/problems/powx-n/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/pow
+50. [Pow(x, n)](Java/src/com/nguyenvm/pow) - https://leetcode.com/problems/powx-n/
 
-69. Sqrt(x) - https://leetcode.com/problems/sqrtx/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/sqrt
+69. [Sqrt(x)](Java/src/com/nguyenvm/sqrt) - https://leetcode.com/problems/sqrtx/
 
-28. Implement strStr() - https://leetcode.com/problems/implement-strstr/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/str_Str
+28. [Implement strStr()](Java/src/com/nguyenvm/str_Str) - https://leetcode.com/problems/implement-strstr/
 
-202. Happy Number - https://leetcode.com/problems/happy-number/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/happy_number
+202. [Happy Number](Java/src/com/nguyenvm/happy_number) - https://leetcode.com/problems/happy-number/
 
-461. Hamming Distance - https://leetcode.com/problems/hamming-distance/ 
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Javascript/Hamming%20Distance/461.%20Hamming%20Distance
+461. [Hamming Distance](Javascript/Hamming%20Distance/461.%20Hamming%20Distance) - https://leetcode.com/problems/hamming-distance/
 
-13. Roman to Integer - https://leetcode.com/problems/roman-to-integer/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/roman_to_integer
+13. [Roman to Integer](Java/src/com/nguyenvm/roman_to_integer) - https://leetcode.com/problems/roman-to-integer/
 
-20. Valid Parentheses - https://leetcode.com/problems/valid-parentheses
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/valid_parentheses
+20. [Valid Parentheses](Java/src/com/nguyenvm/valid_parentheses) - https://leetcode.com/problems/valid-parentheses
 
-463. Island Perimeter - https://leetcode.com/problems/island-perimeter/
-- https://github.com/vanminhnguyenbmt/Data-Structures-And-Algorithms/tree/master/Java/src/com/nguyenvm/island_perimeter
+463. [Island Perimeter](Java/src/com/nguyenvm/island_perimeter) - https://leetcode.com/problems/island-perimeter/
