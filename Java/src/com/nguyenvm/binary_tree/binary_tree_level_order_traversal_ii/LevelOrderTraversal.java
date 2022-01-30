@@ -40,8 +40,7 @@ public class LevelOrderTraversal {
     public static void main(String[] args) {
         Integer[] data = new Integer[]{5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1, 12, 13, 15, 16, 17, 18, 19, 20};
 
-        TreeNode treeNode = new TreeNode();
-        treeNode = treeNode.buildTreeNode(data);
+        TreeNode treeNode = TreeNode.buildTreeNode(data);
 
         levelOrderBottom(treeNode);
     }

@@ -54,8 +54,7 @@ public class BalancedBinaryTree {
     public static void main(String[] args) {
         Integer[] data = new Integer[]{3,9,20,null,null,15,7};
 
-        TreeNode treeNode = new TreeNode();
-        treeNode = treeNode.buildTreeNode(data);
+        TreeNode treeNode = TreeNode.buildTreeNode(data);
 
         isBalanced(treeNode);
     }

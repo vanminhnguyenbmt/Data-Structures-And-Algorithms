@@ -80,8 +80,7 @@ public class MaximumProductOfSplittedBinaryTree {
         Integer[] data = new Integer[]{2, 3, 9, 10, 7, 8, 6, 5, 4, 11, 1};
         int mod = 1000000007;
 
-        TreeNode treeNode = new TreeNode();
-        treeNode = treeNode.buildTreeNode(data);
+        TreeNode treeNode = TreeNode.buildTreeNode(data);
 
         Recursive recursive = new Recursive();
         recursive.total = recursive.sumTreeNodeRecursive(treeNode);

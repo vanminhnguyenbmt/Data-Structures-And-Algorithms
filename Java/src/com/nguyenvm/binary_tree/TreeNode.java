@@ -1,6 +1,9 @@
 package com.nguyenvm.binary_tree;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Queue;
+import java.util.Stack;
 
 public class TreeNode {
     public int val;
@@ -32,7 +35,7 @@ public class TreeNode {
         return root;
     }
 
-    public TreeNode buildTreeNode(Integer[] data) {
+    public static TreeNode buildTreeNode(Integer[] data) {
         TreeNode treeNode = new TreeNode(data[0]);
         Queue<Integer> queue = new LinkedList<>();
         int length = data.length;
