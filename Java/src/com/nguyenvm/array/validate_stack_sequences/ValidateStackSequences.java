@@ -1,4 +1,4 @@
-package com.nguyenvm.validate_stack_sequences;
+package com.nguyenvm.array.validate_stack_sequences;
 
 import java.util.ArrayDeque;
 

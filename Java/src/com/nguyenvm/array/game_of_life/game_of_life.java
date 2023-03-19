@@ -1,4 +1,4 @@
-package com.nguyenvm.game_of_life;
+package com.nguyenvm.array.game_of_life;
 
 // https://leetcode.com/problems/game-of-life/
 

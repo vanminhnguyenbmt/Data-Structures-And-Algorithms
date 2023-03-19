@@ -1,4 +1,4 @@
-package com.nguyenvm.three_sum;
+package com.nguyenvm.array.three_sum;
 
 import java.util.*;
 

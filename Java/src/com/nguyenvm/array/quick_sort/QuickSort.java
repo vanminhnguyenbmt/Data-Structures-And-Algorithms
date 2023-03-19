@@ -1,4 +1,4 @@
-package com.nguyenvm.sort.quick_sort;
+package com.nguyenvm.array.quick_sort;
 
 // https://leetcode.com/problems/sort-an-array/
 

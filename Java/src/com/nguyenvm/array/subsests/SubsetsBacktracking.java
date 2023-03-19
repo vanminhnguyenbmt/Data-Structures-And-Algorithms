@@ -1,4 +1,4 @@
-package com.nguyenvm.subsests;
+package com.nguyenvm.array.subsests;
 
 import java.util.ArrayList;
 import java.util.List;

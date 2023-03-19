@@ -32,16 +32,24 @@
 
 630 [Course Schedule III](Java/src/com/nguyenvm/graph/course_schedule_iii) - https://leetcode.com/problems/course-schedule-iii/
 
-## Sort
-912 [Sort an Array](Java/src/com/nguyenvm/sort/quick_sort) - https://leetcode.com/problems/sort-an-array/
+## Array
+912 [Sort an Array](Java/src/com/nguyenvm/array/quick_sort) - https://leetcode.com/problems/sort-an-array/
+
+78 [Subsets](Java/src/com/nguyenvm/array/subsests) - https://leetcode.com/problems/subsets/
+
+15 [3Sum](Java/src/com/nguyenvm/array/three_sum) - https://leetcode.com/problems/3sum/
+
+289 [Game of Life](Java/src/com/nguyenvm/array/game_of_life) - https://leetcode.com/problems/game-of-life/
+
+42 [Trapping Rain Water](Java/src/com/nguyenvm/array/trapping_rain_water) - https://leetcode.com/problems/trapping-rain-water/
+
+946 [Validate Stack Sequences](Java/src/com/nguyenvm/array/validate_stack_sequences) - https://leetcode.com/problems/validate-stack-sequences/
+
+463 [Island Perimeter](Java/src/com/nguyenvm/array/island_perimeter) - https://leetcode.com/problems/island-perimeter/
+
+34 [Find First and Last Position of Element in Sorted Array](Java/src/com/nguyenvm/array/find_first_and_last_position_of_element_in_sorted_array) - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
 ## Others
-289 [Game of Life](Java/src/com/nguyenvm/game_of_life) - https://leetcode.com/problems/game-of-life/
-
-78 [Subsets](Java/src/com/nguyenvm/subsests) - https://leetcode.com/problems/subsets/
-
-42 [Trapping Rain Water](Java/src/com/nguyenvm/trapping_rain_water) - https://leetcode.com/problems/trapping-rain-water/
-
-946 [Validate Stack Sequences](Java/src/com/nguyenvm/validate_stack_sequences) - https://leetcode.com/problems/validate-stack-sequences/
 
 50 [Pow(x, n)](Java/src/com/nguyenvm/pow) - https://leetcode.com/problems/powx-n/
 
@@ -56,7 +64,3 @@
 13 [Roman to Integer](Java/src/com/nguyenvm/roman_to_integer) - https://leetcode.com/problems/roman-to-integer/
 
 20 [Valid Parentheses](Java/src/com/nguyenvm/valid_parentheses) - https://leetcode.com/problems/valid-parentheses
-
-463 [Island Perimeter](Java/src/com/nguyenvm/island_perimeter) - https://leetcode.com/problems/island-perimeter/
-
-15 [3Sum](Java/src/com/nguyenvm/ThreeSum) - https://leetcode.com/problems/3sum/

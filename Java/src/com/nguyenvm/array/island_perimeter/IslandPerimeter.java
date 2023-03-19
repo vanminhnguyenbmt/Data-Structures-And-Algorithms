@@ -1,4 +1,4 @@
-package com.nguyenvm.island_perimeter;
+package com.nguyenvm.array.island_perimeter;
 
 // https://leetcode.com/problems/island-perimeter/
 

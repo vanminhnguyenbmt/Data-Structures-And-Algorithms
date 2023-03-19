@@ -1,4 +1,4 @@
-package com.nguyenvm.trapping_rain_water;
+package com.nguyenvm.array.trapping_rain_water;
 
 // https://leetcode.com/problems/trapping-rain-water/
 
