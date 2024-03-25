@@ -32,6 +32,8 @@
 
 630 [Course Schedule III](Java/src/com/nguyenvm/graph/course_schedule_iii) - https://leetcode.com/problems/course-schedule-iii/
 
+399 [Evaluate Division](Java/src/com/nguyenvm/graph/evaluate_division) - https://leetcode.com/problems/evaluate-division/
+
 ## Array
 912 [Sort an Array](Java/src/com/nguyenvm/array/quick_sort) - https://leetcode.com/problems/sort-an-array/
 
