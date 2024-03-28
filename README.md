@@ -34,6 +34,8 @@
 
 399 [Evaluate Division](Java/src/com/nguyenvm/graph/evaluate_division) - https://leetcode.com/problems/evaluate-division/
 
+1926 [Nearest Exit from Entrance in Maze](Java/src/com/nguyenvm/graph/nearest_exit) - https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/
+
 ## Array
 912 [Sort an Array](Java/src/com/nguyenvm/array/quick_sort) - https://leetcode.com/problems/sort-an-array/
 
