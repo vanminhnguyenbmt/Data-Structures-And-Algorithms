@@ -1,8 +1,8 @@
-package com.nguyenvm.binary_tree.balanced_binary_search_tree;
+package com.nguyenvm.tree.balanced_binary_search_tree;
 
 //https://leetcode.com/problems/balance-a-binary-search-tree/
 
-import com.nguyenvm.binary_tree.TreeNode;
+import com.nguyenvm.tree.TreeNode;
 
 import java.util.*;
 

@@ -1,8 +1,8 @@
-package com.nguyenvm.binary_tree.maximum_product_of_splitted_binary_tree;
+package com.nguyenvm.tree.maximum_product_of_splitted_binary_tree;
 
 //https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 
-import com.nguyenvm.binary_tree.TreeNode;
+import com.nguyenvm.tree.TreeNode;
 
 import java.util.LinkedList;
 import java.util.List;

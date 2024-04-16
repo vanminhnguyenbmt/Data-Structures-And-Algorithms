@@ -1,6 +1,6 @@
-package com.nguyenvm.binary_tree.binary_tree_level_order_traversal_ii;
+package com.nguyenvm.tree.binary_tree_level_order_traversal_ii;
 
-import com.nguyenvm.binary_tree.TreeNode;
+import com.nguyenvm.tree.TreeNode;
 
 import java.util.*;
 

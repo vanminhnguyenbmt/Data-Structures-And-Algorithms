@@ -1,8 +1,8 @@
-package com.nguyenvm.binary_tree.house_robber_iii;
+package com.nguyenvm.tree.house_robber_iii;
 
 // https://leetcode.com/problems/house-robber-iii/
 
-import com.nguyenvm.binary_tree.TreeNode;
+import com.nguyenvm.tree.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

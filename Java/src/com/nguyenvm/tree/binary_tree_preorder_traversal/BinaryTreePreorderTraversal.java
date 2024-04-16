@@ -1,6 +1,6 @@
-package com.nguyenvm.binary_tree.binary_tree_preorder_traversal;
+package com.nguyenvm.tree.binary_tree_preorder_traversal;
 
-import com.nguyenvm.binary_tree.TreeNode;
+import com.nguyenvm.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Collections;

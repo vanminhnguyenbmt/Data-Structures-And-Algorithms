@@ -1,8 +1,8 @@
-package com.nguyenvm.binary_tree.binary_tree_postorder_traversal;
+package com.nguyenvm.tree.binary_tree_postorder_traversal;
 
 //https://leetcode.com/problems/binary-tree-postorder-traversal/
 
-import com.nguyenvm.binary_tree.TreeNode;
+import com.nguyenvm.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Collections;

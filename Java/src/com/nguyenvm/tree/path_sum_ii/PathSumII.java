@@ -1,8 +1,8 @@
-package com.nguyenvm.binary_tree.path_sum_ii;
+package com.nguyenvm.tree.path_sum_ii;
 
 //https://leetcode.com/problems/path-sum-ii/
 
-import com.nguyenvm.binary_tree.TreeNode;
+import com.nguyenvm.tree.TreeNode;
 
 import java.util.*;
 

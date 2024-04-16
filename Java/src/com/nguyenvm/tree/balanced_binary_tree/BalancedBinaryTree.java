@@ -1,6 +1,6 @@
-package com.nguyenvm.binary_tree.balanced_binary_tree;
+package com.nguyenvm.tree.balanced_binary_tree;
 
-import com.nguyenvm.binary_tree.TreeNode;
+import com.nguyenvm.tree.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.nguyenvm.binary_tree;
+package com.nguyenvm.tree;
 
 import java.util.LinkedList;
 import java.util.Map;
@@ -23,7 +23,7 @@ public class TreeNode {
         this.right = right;
     }
 
-    public TreeNode buildTreeNodeRecursive(int[] data, TreeNode root, int i) {
+    public static TreeNode buildTreeNodeRecursive(int[] data, TreeNode root, int i) {
         if (i < data.length) {
             TreeNode treeNode = new TreeNode(data[i]);
             root = treeNode;

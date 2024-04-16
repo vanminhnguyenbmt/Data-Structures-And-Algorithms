@@ -1,6 +1,6 @@
-package com.nguyenvm.binary_tree.invert_binary_tree;
+package com.nguyenvm.tree.invert_binary_tree;
 
-import com.nguyenvm.binary_tree.TreeNode;
+import com.nguyenvm.tree.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;
