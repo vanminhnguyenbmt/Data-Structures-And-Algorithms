@@ -53,7 +53,9 @@
 
 [463](https://leetcode.com/problems/island-perimeter/) - [Island Perimeter](Java/src/com/nguyenvm/array/island_perimeter) 
 
-[34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) - [Find First and Last Position of Element in Sorted Array](Java/src/com/nguyenvm/array/find_first_and_last_position_of_element_in_sorted_array) 
+[34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) - [Find First and Last Position of Element in Sorted Array](Java/src/com/nguyenvm/array/find_first_and_last_position_of_element_in_sorted_array)
+
+[950](https://leetcode.com/problems/reveal-cards-in-increasing-order/) - [Reveal Cards In Increasing Order](Java/src/com/nguyenvm/array/reveal_cards_in_increasing_order)
 
 ## Others
 [50](https://leetcode.com/problems/powx-n/) - [Pow(x, n)](Java/src/com/nguyenvm/pow) 
