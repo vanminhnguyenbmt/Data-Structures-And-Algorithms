@@ -57,7 +57,7 @@
 
 [950](https://leetcode.com/problems/reveal-cards-in-increasing-order/) - [Reveal Cards In Increasing Order](Java/src/com/nguyenvm/array/reveal_cards_in_increasing_order)
 
-[85](https://leetcode.com/problems/maximal-rectangle/) - [Maximal Rectangle](Java/src/com/nguyenvm/maximal_rectangle)
+[85](https://leetcode.com/problems/maximal-rectangle/) - [Maximal Rectangle](Java/src/com/nguyenvm/array/maximal_rectangle)
 
 ## Others
 [50](https://leetcode.com/problems/powx-n/) - [Pow(x, n)](Java/src/com/nguyenvm/pow) 
