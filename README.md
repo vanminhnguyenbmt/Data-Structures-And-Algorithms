@@ -68,6 +68,8 @@
 
 [461](https://leetcode.com/problems/hamming-distance/) - [Hamming Distance](Javascript/Hamming%20Distance/461.%20Hamming%20Distance) 
 
-[13](https://leetcode.com/problems/roman-to-integer/) - [Roman to Integer](Java/src/com/nguyenvm/roman_to_integer) 
+[13](https://leetcode.com/problems/roman-to-integer/) - [Roman to Integer](Java/src/com/nguyenvm/roman_to_integer)
 
-[20](https://leetcode.com/problems/valid-parentheses) - [Valid Parentheses](Java/src/com/nguyenvm/valid_parentheses) 
+[20](https://leetcode.com/problems/valid-parentheses) - [Valid Parentheses](Java/src/com/nguyenvm/valid_parentheses)
+
+[402](https://leetcode.com/problems/remove-k-digits/) - [Remove K Digits](Java/src/com/nguyenvm/remove_k_digits)
