@@ -59,6 +59,8 @@
 
 [85](https://leetcode.com/problems/maximal-rectangle/) - [Maximal Rectangle](Java/src/com/nguyenvm/array/maximal_rectangle)
 
+[2391](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) - [Minimum Amount of Time to Collect Garbage](Java/src/com/nguyenvm/array/minimum_amount_of_time_to_collect_garbage)
+
 ## Others
 [50](https://leetcode.com/problems/powx-n/) - [Pow(x, n)](Java/src/com/nguyenvm/pow) 
 
