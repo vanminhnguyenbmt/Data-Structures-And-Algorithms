@@ -1,0 +1,5 @@
+nums = [-1,4,2,1,9,10]
+Expected 3
+
+nums = [1]
+Expected 2

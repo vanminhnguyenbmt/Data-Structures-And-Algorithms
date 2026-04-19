@@ -63,6 +63,8 @@
 
 [322](https://leetcode.com/problems/coin-change/) - [Coin Change](Java/src/com/nguyenvm/array/coin_change)
 
+[41](https://leetcode.com/problems/first-missing-positive/) - [First missing positive](Java/src/com/nguyenvm/array/first_missing_positive)
+
 ## Others
 [50](https://leetcode.com/problems/powx-n/) - [Pow(x, n)](Java/src/com/nguyenvm/pow) 
 
