@@ -61,6 +61,8 @@
 
 [2391](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) - [Minimum Amount of Time to Collect Garbage](Java/src/com/nguyenvm/array/minimum_amount_of_time_to_collect_garbage)
 
+[322](https://leetcode.com/problems/coin-change/) - [Coin Change](Java/src/com/nguyenvm/array/coin_change)
+
 ## Others
 [50](https://leetcode.com/problems/powx-n/) - [Pow(x, n)](Java/src/com/nguyenvm/pow) 
 
